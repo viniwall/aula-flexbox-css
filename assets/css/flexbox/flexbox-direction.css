@@ -1,0 +1,95 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.descricao {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.item {
+    background-color: #8b45e0;
+    color: #fff;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px dashed #999;
+    padding: 10px;
+    min-height: 80px;
+    background-color: #fafafafa;    
+}
+
+.exemplo1 {
+    flex-direction: row;
+}
+
+.exemplo2 {
+    flex-direction: column;
+}
+
+.exemplo3 {
+    flex-direction: row-reverse;
+}
+
+.exemplo4 {
+    flex-direction: column-reverse;
+}
+
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.mb-2 {
+    margin-bottom: 8px;
+}
