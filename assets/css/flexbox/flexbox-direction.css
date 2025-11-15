@@ -130,3 +130,32 @@ div.section {
 .align-items-baseline {
     align-items: baseline;
 }
+
+.align-content {
+    min-height: 300px;
+    flex-wrap: wrap;
+}
+
+.align-content-flex-start {
+    align-content: flex-start;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-flex-end {
+    align-content: flex-end;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+.align-content-space-between {
+    align-content: space-between;
+}
+
+.align-content-space-around {
+    align-content: space-around;
+}
