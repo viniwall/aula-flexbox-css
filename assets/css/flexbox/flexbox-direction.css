@@ -1,3 +1,13 @@
+:root {
+    --section-background-color: #fff;
+    --section-border-color: #ddd;
+    --item-bakcground-color: #8b45e0;
+    --body-background-color: #f5f5f5;
+    --item-color: #fff;
+    --flex-container-border-color: #999;
+    --flex-container-background-color: #fafafa;
+}
+
 * {
     box-sizing: content-box;
 }
