@@ -93,3 +93,40 @@ div.section {
 .mb-2 {
     margin-bottom: 8px;
 }
+
+.item-baixo {
+    font-size:12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.item-medio {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.item-alto {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.align-items-flex-start {
+    align-items: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-flex-end {
+    align-items: flex-end;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
